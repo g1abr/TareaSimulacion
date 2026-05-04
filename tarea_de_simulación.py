@@ -231,7 +231,7 @@ if __name__ == "__main__":
     print("\n Ganador:", juego.ganador())
 
     # Simulaciones
-    sims = input("\nNúmero de simulaciones (default 50): ")
+    sims = input("\nNúmero de simulaciones (por defecto 50): ")
     sims = int(sims) if sims.isdigit() else 50
 
     analisis(sims)
